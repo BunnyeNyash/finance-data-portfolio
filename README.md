@@ -52,3 +52,34 @@ I will write and publish an article after completing each project. Drafts will l
 4. Check the `figures/` folders for visualizations.
 
 ---
+
+## Folder Structure
+```
+finance-data-portfolio/
+├── README.md                  # Main portfolio overview + navigation
+├── requirements.txt           # All dependencies
+├── .env                       # API keys (never to be committed) (to use with vscode)
+├── .gitignore                 # to use with vscode)
+├── data_pipeline/             # Reusable code
+│   ├── __init__.py
+│   ├── data_ingestion.py      # Functions for yfinance, Alpha Vantage, etc.
+│   ├── data_cleaning.py       # Cleaning, validation, feature engineering
+│   ├── data_storage.py        # Save to CSV, Parquet, SQLite
+│   └── utils.py               # Helpers (logging, config)
+├── project_01_eda_financial_analysis/   # Each project in its own folder
+│   ├── notebooks/
+│   │   ├── 01_raw_ingestion.ipynb
+│   │   ├── 02_data_cleaning.ipynb
+│   │   └── 03_eda_visualization.ipynb
+│   ├── data/
+│   │   ├── raw/               # Never commit large raw files → use .gitignore
+│   │   ├── processed/         # Clean Parquet/CSV
+│   │   └── external/          # Kaggle downloads, etc.
+│   ├── src/                   # Reusable scripts for this project
+│   ├── figures/               # Plots for LinkedIn & README
+│   ├── reports/               # Analysis summaries
+│   └── README.md              # Project-specific README
+├── project_02_dashboard/      # And so on for all 6–8 projects
+├── nse_kenya_data/            # Special folder for local market data
+└── docs/                      # Extra docs or LinkedIn article drafts
+```
