@@ -22,7 +22,7 @@ My goal is to land roles in financial data analysis while building toward advanc
 
 ## Project Roadmap
 
-| Project | Title | Focus Area | Key Skills | Status | Notebook Link |
+| Project | Title | Focus Area | Key Skills | Status | Project Link |
 |---------|-------|------------|------------|--------|---------------|
 | 1 | Exploratory Financial Data Analysis | Data Analysis | Raw ingestion, cleaning, EDA, financial metrics, visualizations | In Progress | [project_01_eda_financial_analysis/notebooks/](project_01_eda_financial_analysis/notebooks/) |
 | 2 | Automated Stock & Portfolio Dashboard | Data Analysis + Visualization | Dashboarding, API integration | Planned | Coming soon |
