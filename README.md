@@ -24,7 +24,7 @@ My goal is to land roles in financial data analysis while building toward advanc
 
 | Project | Title | Focus Area | Key Skills | Status | Project Link |
 |---------|-------|------------|------------|--------|---------------|
-| 1 | Exploratory Financial Data Analysis | Data Analysis | Raw ingestion, cleaning, EDA, financial metrics, visualizations | In Progress | [project_01_eda_financial_analysis/notebooks/](project_01_eda_financial_analysis/notebooks/) |
+| 1 | Exploratory Financial Data Analysis | Data Analysis | Raw ingestion, cleaning, EDA, financial metrics, visualizations | In Progress | [Project-01_lending-club-project](Project-01_lending-club-project) |
 | 2 | Automated Stock & Portfolio Dashboard | Data Analysis + Visualization | Dashboarding, API integration | Planned | Coming soon |
 | 3 | Classical Risk & Portfolio Optimization | Data Science | Markowitz model, Monte Carlo, VaR | Planned | Coming soon |
 | 4 | Time-Series Forecasting & ML Trading Signals | Machine Learning | LSTM, XGBoost, backtesting | Planned | Coming soon |
