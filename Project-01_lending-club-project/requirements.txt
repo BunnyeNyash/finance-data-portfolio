@@ -1,1 +1,9 @@
+# maintained manually
 
+pandas
+numpy
+kaggle
+python-dotenv
+pyarrow
+matplotlib
+plotly
